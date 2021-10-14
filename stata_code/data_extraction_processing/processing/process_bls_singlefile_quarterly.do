@@ -73,9 +73,8 @@ gen avgQ_emp=(month1_emplvl + month2_emplvl +month3_emplvl)/3
 /* Taking the weighted sum of average weekly wages, then dividing by total employment does the same thing
 preserve
 
-gen mark=1
-collapse (sum) avg_wkly_wage mark [iweight=tot_emp], by(year qtr laborcat)
-replace avg=avg/mark
+collapse (mean) avg_wkly_wage mark [iweight=tot_emp], by(year qtr laborcat)
+
 tempfile m1
 save `m1'
 
