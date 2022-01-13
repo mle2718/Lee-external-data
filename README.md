@@ -1,6 +1,6 @@
 # Project Template
 
-A small repository that will extract data from BLS on wages and other labor statistics.
+A small repository that contains stata code to extract data from BLS on wages and other labor statistics.
 
 You can  extract data from the QCEW County high level files and the quarterly singlefile.
 
