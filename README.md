@@ -1,6 +1,8 @@
 # Project Template
 
-A small repository that contains stata code to extract data from BLS on wages and other labor statistics.
+A small repository that contains stata code to fetch external data 
+1.  BLS on wages and other labor statistics.
+2.  St. Louis Federal reserve, using stata's FREDUSE, to get PPIs and compute a factor to normalize to an arbitrary base year. 
 
 You can  extract data from the QCEW County high level files and the quarterly singlefile.
 
