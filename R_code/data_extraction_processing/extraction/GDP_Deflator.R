@@ -1,6 +1,6 @@
 # Code to get GDP deflator from St. Louis Fed and deflate a dataset either using quarterly data or yearly deflators.
 # Deflates to tye year specified in base_year or to the year and quarter specified in base_year and base_quarter
-
+# Dennis Corvi in offshoreWind, subsequently modified.
 
 rm(list=ls())
 library("tidyverse")
