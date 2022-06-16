@@ -1,10 +1,10 @@
 # Project Template
 
-A small repository that contains code to fetch external data 
-1.  BLS on wages and other labor statistics (stata).
-2.  St. Louis Federal reserve to get PPIs and compute a factor to normalize to an arbitrary base year (stata). 
+A small repository that contains code to get and process external data: 
+1.  BLS on wages and other labor statistics from QCEW or OES (stata folder).
+2.  St. Louis Federal reserve (FRED) to get PPIs and compute a factor to normalize to an arbitrary base year (stata folder). 
 
-You can  extract data from the QCEW County high level files and the quarterly singlefile.
+You can extract data from the QCEW County high level files and the quarterly singlefile.
 
 You can also extract OES data, if you can use wget. Alternatively, you can modify that code to use stata's copy.
 
