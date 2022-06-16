@@ -1,14 +1,12 @@
 # Project Template
 
 A small repository that contains code to get and process external data: 
-1.  BLS on wages and other labor statistics from QCEW or OES (stata folder).
+1.  BLS on wages and other labor statistics from QCEW or OES (stata folder and R folder).
 2.  St. Louis Federal reserve (FRED) to get PPIs and compute a factor to normalize to an arbitrary base year (stata folder). 
+3.  Code to scrape the FOSS for fishery landing data (R).
+  
 
-You can extract data from the QCEW County high level files and the quarterly singlefile.
-
-You can also extract OES data, if you can use wget. Alternatively, you can modify that code to use stata's copy.
-
-The code runs a little slowly, because it has to download some large files and then import excel or csvs into stata. This data could be obtained faster using the BLSs API (https://www.bls.gov/developers/). 
+You can extract data from the QCEW County high level files and the quarterly singlefile. You can also extract OES data, if you can use wget. Alternatively, you can modify that code to use stata's copy. That code runs a little slowly, because it has to download some large files and then import excel or csvs into stata. This data could be obtained faster using the BLSs API (https://www.bls.gov/developers/). 
 
 
 # NOAA Requirements
