@@ -9,7 +9,11 @@ if(!require(DBI)) {
  #   install.packages("ROracle")
  #   require(ROracle)}
 
+library("here")
 # Setup directories
+
+my_projdir<-here::i_am("R_code/project_logistics/R_paths_libraries.R")
+
 
 Rcodedir<-file.path(my_projdir,"R_code")
 
