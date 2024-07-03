@@ -16,8 +16,8 @@ cap mkdir ${singlefile}
 
 
 /* which years do you want to download. */
-local startyear 2004
-local endyear 2020
+local startyear 2000
+local endyear 2023
 
 /************************************************************************/
 /************************************************************************/
@@ -25,7 +25,7 @@ local endyear 2020
 /************************************************************************/
 /************************************************************************/
 
-	cd $data_external/singlefile_quarterly
+cd ${singlefile}
 
  /* This automatically gets data from the cew  for the years that you want and puts them into data_external, unzips to csv, and deletes the zip.*/
 forvalues myy=`startyear'/`endyear'{
